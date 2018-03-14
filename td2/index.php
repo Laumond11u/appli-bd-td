@@ -12,8 +12,17 @@ $db->bootEloquent();
 
 
 //Question 1
-$game12342 = \td2\models\Character::where('id','like','12342');
+//$game12342 = \td2\models\Game::where('id','like','12342')->get();
+ 
+// foreach ($game12342 as $character) {
+  //   echo "$character->id : $character->name<br/>";
+//}
 
- foreach ($game12342 as $character) {
-     echo "$character->id : $character->name<br/>";
+
+
+//Question 2
+$gamesMario = td2\models\Game::where('name', 'like', '%mario%')->get();
+
+foreach ($gamesMario as $game) {
+     echo "$game->id : $game->name<br/>";
 }

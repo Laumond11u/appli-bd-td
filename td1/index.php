@@ -28,7 +28,7 @@ $compagnyJapon = \td1\models\Company::where(['location_country' => 'Japan'])->ge
 
 
 //Question 3
-$platform10M = \td1\models\Platform::where('install_base', '>=', 10000000)->paginate(10)->get();
+//$platform10M = \td1\models\Platform::where('install_base', '>=', 10000000)->get();
 // foreach ($platform10M as $platform) {
 //     echo "$platform->id : $platform->name<br/>";
 // }
