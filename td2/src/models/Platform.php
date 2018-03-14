@@ -1,5 +1,5 @@
 <?php
-namespace td2;
+namespace td2\models;
 class Platform extends \Illuminate\Database\Eloquent\Model{
     protected $table = 'platform';
     protected $primaryKey = 'id';

@@ -1,5 +1,5 @@
 <?php
-namespace td2;
+namespace td2\models;
 class Game extends \Illuminate\Database\Eloquent\Model{
     protected $table = 'game';
     protected $primaryKey = 'id';
