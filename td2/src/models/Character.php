@@ -5,5 +5,4 @@ class Character extends \Illuminate\Database\Eloquent\Model{
     protected $primaryKey = 'id';
     protected $timestamps = true;
 
-
 }
