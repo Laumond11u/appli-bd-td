@@ -1,0 +1,17 @@
+{
+  "name": "gamepedia",
+  "type": "project",
+
+"require": {
+  "illuminate/database": "5.5.*",
+  "slim/slim": "2.*",
+  "php": ">=7.0.0"
+},
+
+"autoload": {
+  "psr-4": {
+    "gamepedia\\": "./src"
+  }
+}
+
+}
